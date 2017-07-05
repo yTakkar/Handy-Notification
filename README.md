@@ -139,4 +139,4 @@ options = {
   <dd>It's a function which will be executed when you're notified</dd>
 </dl>
 
-**Thanks for reading**
+**Thanks for reading!!**
