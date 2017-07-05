@@ -1,0 +1,28 @@
+{
+  "name": "handy-notification",
+  "version": "1.0.0",
+  "description": "Google+ style notification which comes from the bottom to notify!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yTakkar/Handy-Notification.git"
+  },
+  "keywords": [
+    "google+",
+    "notification",
+    "notify",
+    "handy-notification"
+  ],
+  "author": "takkar <shtakkar@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yTakkar/Handy-Notification/issues"
+  },
+  "homepage": "https://github.com/yTakkar/Handy-Notification#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
