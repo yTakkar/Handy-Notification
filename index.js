@@ -8,7 +8,7 @@ var Notify = function(options){
     value:     "Message",  // This will be the message
     selector:  null,       // Selector you just created
     action:    null,       // responsible to redirect to a URL when clicked
-    done:      null        // It's a function which will executed when Notification goes back to the bottom
+    done:      null        // It's a function which will be executed when you're notified
   };
 
   var settings = Object.assign({}, defaults, options);
