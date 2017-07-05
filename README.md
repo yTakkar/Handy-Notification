@@ -138,3 +138,5 @@ options = {
   <dt>done</dt>
   <dd>It's a function which will be executed when you're notified</dd>
 </dl>
+
+**Thanks for reading**
