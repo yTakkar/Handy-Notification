@@ -21,14 +21,14 @@ npm install handy-notification
 ```
 
 2. Create a div with any `ClassName`.
-```
+```html
 <div class='handy'>
     <span></span>
 </div>
 ```
 
 3. Add below styles to the `handy` div.
-```
+```css
 .handy{
     position: fixed;
     background: #333;
