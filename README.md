@@ -7,7 +7,8 @@ A very simple & useful Google+ style notification bar which comes from the botto
 3. [Usage](#usage)
 
 # Screenshots
-![alt text](https://github.com/yTakkar/Handy-Notification/blob/master/screenshots/Snap%202017-05-23%20at%2001.21.00.png)
+<!--![alt text](https://github.com/yTakkar/Handy-Notification/blob/master/screenshots/Snap%202017-05-23%20at%2001.21.00.png)-->
+![alt text](https://raw.githubusercontent.com/yTakkar/Handy-Notification/master/screenshots/Snap%202017-05-23%20at%2001.21.00.png)
 
 # Requirements
 1. jQuery
