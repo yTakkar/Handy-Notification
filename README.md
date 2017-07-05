@@ -1,5 +1,5 @@
 # Handy-Notification
-A very simple & useful Google+ style notification bar which comes from the bottom, notified you & transitions back to the bottom. Screenshots below.
+A very simple & useful Google+ style notification bar which comes from the bottom, notifies you & transitions back to the bottom. Screenshots below.
 
 # Quick links
 1. [Screenshots](#screenshots)
