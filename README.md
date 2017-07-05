@@ -1,5 +1,5 @@
 # Handy-Notification
-A very simple & useful Google+ style notification bar which comes from the bottom, notified you & transitions back to the bottom. Screenshot below.
+A very simple & useful Google+ style notification bar which comes from the bottom, notified you & transitions back to the bottom. Screenshots below.
 
 # Quick links
 1. [Screenshots](#screenshots)
@@ -9,6 +9,7 @@ A very simple & useful Google+ style notification bar which comes from the botto
 
 # Screenshots
 ![alt text](https://raw.githubusercontent.com/yTakkar/Handy-Notification/master/screenshots/Snap%202017-05-23%20at%2001.21.00.png)
+![alt text]()
 
 # Requirements
 1. jQuery
