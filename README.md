@@ -28,7 +28,7 @@ npm install handy-notification
 </div>
 ```
 
-3. Add below styles to the `handy` div.
+3. Add below styles to the `.handy` div.
 ```css
 .handy{
     position: fixed;
