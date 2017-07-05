@@ -8,7 +8,7 @@ var Notify = function(options){
     value:     "Message",  // This will be the message
     selector:  null,       // Selector you just created
     action:    null,       // responsible to redirect to a URL when clicked
-    done:      null        // It's a function which will be executed when you're notified
+    done:      function(){ return false; }       // It's a function which will be executed when you're notified
   };
 
   var settings = Object.assign({}, defaults, options);
@@ -21,20 +21,20 @@ var Notify = function(options){
     action    = settings.action,
     done      = settings.done;
 
-  selector.children().filter('span').html(value);
+  $(selector).find('span').html(value);
 
-  selector.animate({
+  $(selector).animate({
     top: afterTop
   }, "fast",  function(){
-    done != null ? location.href = done : null;
+    done();
     setTimeout(function(){
-      selector.animate({ top: beforeTop });
+      $(selector).animate({ top: beforeTop });
     }, 3000);
   });
 
-  selector.on('click', function(e){
+  $(selector).on('click', function(e){
     action != null ? location.href = action : null;
-    selector.animate({
+    $(selector).animate({
       top: beforeTop
     });
   });
