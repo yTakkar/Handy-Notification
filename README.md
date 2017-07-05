@@ -1,13 +1,13 @@
 # Handy-Notification
 A very simple & useful Google+ style notification bar which comes from the bottom, notified you & transitions back to the bottom. Screenshot below.
 
-#Quick links
+# Quick links
 1. [Screenshots](#screenshots)
 2. [Requirements](#requirements)
 3. [Usage](#usage)
 
 # Screenshots
-![alt text]()
+![alt text](https://github.com/yTakkar/Handy-Notification/blob/master/screenshots/Snap%202017-05-23%20at%2001.21.00.png)
 
 # Requirements
 1. jQuery
@@ -17,7 +17,7 @@ A very simple & useful Google+ style notification bar which comes from the botto
 1. First install the package with `npm`.
 
 ```
-    npm install handy-notification
+npm install handy-notification
 ```
 
 2. Create a div with any `ClassName`.
