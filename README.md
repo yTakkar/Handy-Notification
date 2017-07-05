@@ -5,7 +5,7 @@ A very simple & useful Google+ style notification bar which comes from the botto
 1. [Screenshots](#screenshots)
 2. [Requirements](#requirements)
 3. [Usage](#usage)
-4. [API](#API)
+4. [API](#api)
 
 # Screenshots
 ![alt text](https://raw.githubusercontent.com/yTakkar/Handy-Notification/master/screenshots/Snap%202017-05-23%20at%2001.21.00.png)
@@ -57,14 +57,14 @@ Handy({
 ```
 
 # API
-```javascript
+```
 Handy(options:Object)
 options = {
-    beforeTop: Initial top style which keeps the notification bar at the bottom. Default is 105%
-    afterTop:  Top style where it stops to notify you. Default is 90%
+    beforeTop: Initial top style which keeps the notification bar at the bottom to hide it. Default top style is 105%
+    afterTop:  Top style where it comes from the bottom & stops to notify you. Default top style is 90%
     value:     This will be the message
     selector:  Selector you just created
-    action:    It's a URL. Responsible to redirect to a URL when clicked
+    action:    It's a URL. Responsible to redirect when clicked
     done:      It's a function which will be executed when you're notified
 }
 ```
