@@ -46,10 +46,11 @@ npm install handy-notification
 
 4. And here comes the fun part.
 ```javascript
-const Handy = require('handy')
+const Handy = require('handy-notification');
 Handy({
-    value: "Hello, how are you?",
-    selector: document.querySelector('.handy'),
-    done: () => console.log('I notified you & went back to the bottom!')
-})
+    value: "Hello, how are you?",   // Message to be displayed
+    selector: document.querySelector('.handy'), // selector we just created
+    action: "https://github.com/yTakkar/Handy-Notification",    // URL when clicked on the notification bar
+    done: () => console.log('I notified you & went back to the bottom!')    // function to be executed when we're notified
+});
 ```
