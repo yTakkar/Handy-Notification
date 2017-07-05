@@ -1,8 +1,6 @@
 # Handy-Notification
 A very simple, tiny & useful Google+ style notification bar which comes from the bottom, notifies you & transitions back to the bottom. Screenshots below.
 
-**[jQuery Plugin](https://github.com/yTakkar/Handy-Notification-jquery-plugin)**
-
 # Quick links
 1. [Screenshots](#screenshots)
 2. [Requirements](#requirements)
