@@ -6,7 +6,7 @@ A very simple, tiny & useful Google+ style notification bar which comes from the
 # Quick links
 1. [Screenshots](#screenshots)
 2. [Requirements](#requirements)
-3. [Usage](#usage)
+3. [Usage with npm or Yarn](#usage)
 4. [Usage as a jQuery plugin](#usage-as-a-jquery-plugin)
 4. [API](#api)
 
@@ -21,10 +21,14 @@ These screenshots are from [Instagram-clone](https://github.com/yTakkar/Instagra
 
 # Usage
 
-1. First install the package with `npm`.
+1. First install the package with `npm` or `Yarn`.
 
 ```
 npm install handy-notification
+```
+
+```
+yarn add handy-notification
 ```
 
 2. Create a div with any `ClassName`.
