@@ -50,24 +50,25 @@ npm install handy-notification
 
 4. And here comes the fun part.
 ```javascript
-const Handy = require('handy-notification');
+import Handy from 'handy-notification'
 Handy({
     value: "Hello, how are you?",   // Message to be displayed
     selector: document.querySelector('.handy'), // selector we just created
     action: "https://github.com/yTakkar/Handy-Notification",    // URL when clicked on the notification bar
     done: () => console.log('I notified you & went back to the bottom!')    // function to be executed when we're notified
-});
+})
 ```
 
 # API
-```
+```javascript
+import Handy from 'handy-notification'
 Handy(options:Object)
 options = {
-    beforeTop: Initial top style which keeps the notification bar at the bottom to hide it. Default top style is 105%
-    afterTop:  Top style where it comes from the bottom & stops to notify you. Default top style is 90%
-    value:     This will be the message
-    selector:  Selector you just created
-    action:    It's a URL. Responsible to redirect when clicked
-    done:      It's a function which will be executed when you're notified
+    beforeTop: // Initial top style which keeps the notification bar at the bottom to hide it. Default top style is 105%
+    afterTop:  // Top style where it comes from the bottom & stops to notify you. Default top style is 90%
+    value:     // This will be the message
+    selector:  // Selector you just created
+    action:    // It's a URL. Responsible to redirect when clicked
+    done:      // It's a function which will be executed when you're notified
 }
 ```
