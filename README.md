@@ -104,14 +104,33 @@ $('.handy').HandyNotify({
 ```
 
 # API
-```
+```javascript
 Handy(options:Object)
 options = {
-    beforeTop: // Initial top style which keeps the notification bar at the bottom to hide it. Default top style is 105%
-    afterTop:  // Top style where it comes from the bottom & stops to notify you. Default top style is 90%
-    value:     // This will be the message
-    selector:  // Selector you just created (NOTE: Only availabe to jQuery plugins)
-    action:    // It's a URL. Responsible to redirect when clicked
-    done:      // It's a function which will be executed when you're notified
+    beforeTop,
+    afterTop,
+    value,
+    selector,
+    action,
+    done
 }
 ```
+<dl>
+  <dt>beforeTop:</dt>
+  <dd>Initial top style which keeps the notification bar at the bottom to hide it. Default top style is 105%.</dd>
+
+  <dt>afterTop</dt>
+  <dd>Top style where it comes from the bottom & stops to notify you. Default top style is 90%.</dd>
+
+  <dt>value</dt>
+  <dd>This will be the message.</dd>
+
+  <dt>selector</dt>
+  <dd>Selector you just created (NOTE: Only availabe to jQuery plugins).</dd>
+
+  <dt>action</dt>
+  <dd>It's a URL. Responsible to redirect when clicked.</dd>
+
+  <dt>done</dt>
+  <dd>It's a function which will be executed when you're notified</dd>
+</dl>

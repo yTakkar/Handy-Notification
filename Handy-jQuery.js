@@ -1,5 +1,5 @@
 (function($){
-  $.fn.HandyNotify = function(options){
+  $.fn.Handy = function(options){
     var defaults = {
       beforeTop: "105%",
       afterTop:  "90%",
