@@ -22,6 +22,8 @@ These screenshots are from [Instagram-clone](https://github.com/yTakkar/Instagra
 1. First install the package with `npm` or `Yarn`.
 
 ```
+or
+
 npm install handy-notification
 ```
 
@@ -128,7 +130,7 @@ options = {
   <dd>This will be the message.</dd>
 
   <dt>selector</dt>
-  <dd>Selector you just created (NOTE: Only availabe to jQuery plugins).</dd>
+  <dd>Selector you just created (NOTE: Not availabe to jQuery plugins).</dd>
 
   <dt>action</dt>
   <dd>It's a URL. Responsible to redirect when clicked.</dd>
