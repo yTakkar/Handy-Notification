@@ -31,16 +31,16 @@ npm install handy-notification
 yarn add handy-notification
 ```
 
-2. Create a div with any `ClassName`.
+2. Create a div with class `handy-notify`.
 ```html
-<div class='handy'>
+<div class='handy-notify'>
     <span></span>
 </div>
 ```
 
-3. Add below styles to the `.handy` div.
+3. Add below styles to the `.handy-notify` div.
 ```css
-.handy{
+.handy-notify{
     position: fixed;
     background: #333;
     left: 2%;
@@ -60,7 +60,6 @@ yarn add handy-notification
 import Handy from 'handy-notification'
 Handy({
     value: "Hello, how are you?",   // Message to be displayed
-    selector: document.querySelector('.handy'), // selector we just created
     action: "https://github.com/yTakkar/Handy-Notification",    // URL when clicked on the notification bar
     done: () => console.log('I notified you & went back to the bottom!')    // function to be executed when we're notified
 })
@@ -74,16 +73,16 @@ Handy({
 <script src="/Handy-plugin.js" ></script>
 ```
 
-2. Create a div with any `ClassName`.
+2. Create a div with class `handy-notify`.
 ```html
-<div class='handy'>
+<div class='handy-notify'>
     <span></span>
 </div>
 ```
 
-3. Add below styles to the `.handy` div in your stylesheet.
+3. Add below styles to the `.handy-notify` div in your stylesheet.
 ```css
-.handy{
+.handy-notify{
     position: fixed;
     background: #333;
     left: 2%;
@@ -100,7 +99,7 @@ Handy({
 
 4. And here comes the fun part.
 ```javascript
-$('.handy').HandyNotify({
+$('.handy-notify').HandyNotify({
     value: "Hello, how are you?",   // Message to be displayed
     action: "https://github.com/yTakkar/Handy-Notification",    // URL when clicked on the notification bar
     done: () => console.log('I notified you & went back to the bottom!')    // function to be executed when we're notified
@@ -130,7 +129,7 @@ options = {
   <dd>This will be the message.</dd>
 
   <dt>selector</dt>
-  <dd>Selector you just created (NOTE: Not availabe to jQuery plugins).</dd>
+  <dd>Selector we just created (NOTE: Not availabe to jQuery plugins).</dd>
 
   <dt>action</dt>
   <dd>It's a URL. Responsible to redirect when clicked.</dd>
