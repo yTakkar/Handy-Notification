@@ -68,10 +68,10 @@ Handy({
 
 # Usage as a jQuery plugin
 
-1. Include `Handy-jQuery.js` file into your project.
+1. Copy `Handy-plugin.js` into your project & include it.
 
 ```html
-<script src="/Handy-jQuery.js" ></script>
+<script src="/Handy-plugin.js" ></script>
 ```
 
 2. Create a div with any `ClassName`.
