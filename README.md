@@ -20,13 +20,10 @@ These screenshots are from [Instagram-clone](https://github.com/yTakkar/Instagra
 # Usage
 
 1. First install the package with `npm` or `Yarn`.
-
 ```
-or
-
 npm install handy-notification
 ```
-
+or
 ```
 yarn add handy-notification
 ```
@@ -38,7 +35,7 @@ yarn add handy-notification
 </div>
 ```
 
-3. Add below styles to the `.handy-notify` div.
+3. Add below styles to the `.handy-notify` div in your stylesheet.
 ```css
 .handy-notify{
     position: fixed;
@@ -61,14 +58,13 @@ import Handy from 'handy-notification'
 Handy({
     value: "Hello, how are you?",   // Message to be displayed
     action: "https://github.com/yTakkar/Handy-Notification",    // URL when clicked on the notification bar
-    done: () => console.log('I notified you & went back to the bottom!')    // function to be executed when we're notified
+    done: () => console.log('I notified you & went back to the bottom!')    // function to be executed when you're notified
 })
 ```
 
 # Usage as a jQuery plugin
 
 1. Copy `Handy-plugin.js` into your project & include it.
-
 ```html
 <script src="/Handy-plugin.js" ></script>
 ```
@@ -118,6 +114,7 @@ options = {
     done
 }
 ```
+
 <dl>
   <dt>beforeTop:</dt>
   <dd>Initial top style which keeps the notification bar at the bottom to hide it. Default top style is 105%.</dd>
