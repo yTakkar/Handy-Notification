@@ -1,7 +1,7 @@
 # Handy-Notification
 A very simple, tiny & useful Google+ style notification bar which comes from the bottom, notifies you & transitions back to the bottom. Screenshots below.
 
-If you're reading this on npmjs website, please visit [GitHub page](#https://github.com/yTakkar/Handy-Notification) for better documentation!!
+If you're reading this on npmjs website, please visit [GitHub page](https://github.com/yTakkar/Handy-Notification) for better documentation!!
 
 # Quick links
 1. [Screenshots](#screenshots)
