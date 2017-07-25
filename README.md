@@ -6,8 +6,7 @@ If you're reading this on npmjs website, please visit [GitHub page](https://gith
 # Quick links
 1. [Screenshots](#screenshots)
 2. [Requirements](#requirements)
-3. [Usage with npm or Yarn](#usage)
-4. [Usage as a jQuery plugin](#usage-as-a-jquery-plugin)
+3. [Usage](#usage)
 4. [API](#api)
 
 # Screenshots
@@ -22,87 +21,30 @@ These screenshots are from [Instagram-clone](https://github.com/yTakkar/Instagra
 # Usage
 
 1. First install the package with `npm` or `Yarn`.
-```
-npm install handy-notification
-```
-or
-```
-yarn add handy-notification
-```
+    ```
+    npm install handy-notification
+    ```
+    or
+    ```
+    yarn add handy-notification
+    ```
 
 2. Create a div with class `handy-notify`.
-```html
-<div class='handy-notify'>
-    <span></span>
-</div>
-```
+    ```html
+    <div class='handy-notify'>
+        <span></span>
+    </div>
+    ```
 
-3. Add below styles to the `.handy-notify` div in your stylesheet.
-```css
-.handy-notify{
-    position: fixed;
-    background: #333;
-    left: 2%;
-    color: white;
-    border-radius: 3px;
-    padding: 12px 80px 12px 25px;
-    font-size: 15px;
-    cursor: pointer;
-    text-align: left;
-    z-index: 3;
-    top: 105%;
-}
-```
-
-4. And here comes the fun part.
-```javascript
-import Handy from 'handy-notification'
-Handy({
-    value: "Hello, how are you?",   // Message to be displayed
-    action: "https://github.com/yTakkar/Handy-Notification",    // URL when clicked on the notification bar
-    done: () => console.log('I notified you & went back to the bottom!')    // function to be executed when you're notified
-})
-```
-
-# Usage as a jQuery plugin
-
-1. Copy `Handy-notify-plugin.js` into your project & include it.
-```html
-<script src="/Handy-notify-plugin.js" ></script>
-```
-
-2. Create a div with class `handy-notify`.
-```html
-<div class='handy-notify'>
-    <span></span>
-</div>
-```
-
-3. Add below styles to the `.handy-notify` div in your stylesheet.
-```css
-.handy-notify{
-    position: fixed;
-    background: #333;
-    left: 2%;
-    color: white;
-    border-radius: 3px;
-    padding: 12px 80px 12px 25px;
-    font-size: 15px;
-    cursor: pointer;
-    text-align: left;
-    z-index: 3;
-    top: 105%;
-}
-```
-
-4. And here comes the fun part.
-```javascript
-$('.handy-notify').HandyNotify({
-    value: "Hello, how are you?",   // Message to be displayed
-    action: "https://github.com/yTakkar/Handy-Notification",    // URL when clicked on the notification bar
-    done: () => console.log('I notified you & went back to the bottom!')    // function to be executed when we're notified
-})
-```
+3. And here comes the fun part.
+    ```javascript
+    import Handy from 'handy-notification'
+    Handy({
+        value: "Hello, how are you?",   // Message to be displayed
+        action: "https://github.com/yTakkar/Handy-Notification",    // URL when clicked on the notification bar
+        done: () => console.log('I notified you & went back to the bottom!')    // function to be executed when you're notified
+    })
+    ```
 
 # API
 ```javascript
