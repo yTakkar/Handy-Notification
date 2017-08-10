@@ -3,6 +3,8 @@ A very simple, tiny & useful Google+ style notification bar which comes from the
 
 If you're reading this on npmjs website, please visit [GitHub page](https://github.com/yTakkar/Handy-Notification) for better documentation!!
 
+[![npm version](https://badge.fury.io/js/handy-notification.svg)](https://badge.fury.io/js/handy-notification)
+
 # Quick links
 1. [Screenshots](#screenshots)
 2. [Requirements](#requirements)
