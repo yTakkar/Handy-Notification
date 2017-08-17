@@ -8,6 +8,7 @@ If you're reading this on npmjs website, please visit [GitHub page](https://gith
 2. [Requirements](#requirements)
 3. [Usage](#usage)
 4. [API](#api)
+5. [Contribute](#contribute)
 
 # Screenshots
 ![alt text](https://raw.githubusercontent.com/yTakkar/Handy-Notification/master/screenshots/Snap%202017-05-23%20at%2001.21.00.png)
@@ -78,5 +79,10 @@ options = {
   <dt>done</dt>
   <dd>It's a function which will be executed when you're notified</dd>
 </dl>
+
+# Contribute
+Show your support by 🌟 the project!!
+
+Feel free to contribute!!
 
 **Thanks for reading!!**
