@@ -1,25 +1,25 @@
-var $ = require('jquery');
+const $ = require('jquery')
 
 // FUNCTION TO NOTIFY
-var Notify = function(options){
-  var defaults = {
+const Notify = function(options){
+  const defaults = {
     beforeTop: "105%",     // No need to overwrite this
     afterTop:  "90%",      // same here, no overwriting
     value:     "Message",  // This will be the message
     selector:  $('.handy-notify'),       // Selector you just created
     action:    null,       // responsible to redirect to a URL when clicked
-    done:      function(){ return; }       // It's a function which will be executed when you're notified
-  };
+    done:      function(){ return }       // It's a function which will be executed when you're notified
+  }
 
-  var settings = Object.assign({}, defaults, options);
+  const settings = Object.assign({}, defaults, options)
   
-  var 
+  const 
     selector  = settings.selector,
     value     = settings.value,
     beforeTop = settings.beforeTop,
     afterTop  = settings.afterTop,
     action    = settings.action,
-    done      = settings.done;
+    done      = settings.done
 
   $(selector)
     .css({
@@ -35,22 +35,22 @@ var Notify = function(options){
         "z-index": "30000",
         "top": "105%"
     })
-    .find('span').html(value);
+    .find('span').html(value)
 
   $(selector).animate({
     top: afterTop
   }, "fast",  function(){
-    done();
+    done()
     setTimeout(function(){
-      $(selector).animate({ top: beforeTop });
-    }, 3000);
-  });
+      $(selector).animate({ top: beforeTop })
+    }, 3000)
+  })
 
   $(selector).on('click', function(e){
-    action != null ? location.href = action : null;
-    $(selector).animate({ top: beforeTop });
+    action != null ? location.href = action : null
+    $(selector).animate({ top: beforeTop })
   })
 
 }
 
-module.exports = Notify;
+module.exports = Notify
