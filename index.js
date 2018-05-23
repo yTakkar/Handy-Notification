@@ -26,7 +26,7 @@ const Notify = options => {
   } = options
   const element = $(selector)
 
-  $(selector)
+  element
     .css({
       'position': 'fixed',
       'background': '#333',
@@ -42,19 +42,19 @@ const Notify = options => {
     })
     .find('span').html(value)
 
-  $(selector).animate(
+  element.animate(
   { top: afterTop }, 
   'fast', 
   () => {
     done()
     setTimeout(() => {
-      $(selector).animate({ top: beforeTop })
+      element.animate({ top: beforeTop })
     }, 3000)
   })
 
-  $(selector).on('click', e => {
+  element.on('click', e => {
     onClick(e)
-    $(selector).animate({ top: beforeTop })
+    element.animate({ top: beforeTop })
   })
 
 }
