@@ -7,7 +7,7 @@ const $ = require('jquery')
  * @param {String} options.beforeTop
  * @param {String} options.afterTop
  * @param {String} options.value
- * @param {String} options.selector
+ * @param {jQuery} options.selector
  * @param {Function} options.onClick
  * @param {Function} options.done
  */
@@ -16,7 +16,7 @@ const Notify = options => {
     beforeTop: '105%',            // Position before it notifies
     afterTop: '90%',              // Position after it notifies
     value: 'Message',             // This will be the message
-    selector: '.handy-notify',    // Selector you just created
+    selector: $('.handy-notify'),    // Selector you just created
     onClick: () => { return },    // Function executed when clicked on the notification bar
     done: () => { return }        // Function which will be executed when you're notified
   }
