@@ -20,7 +20,7 @@ const Notify = options => {
     onClick: () => { return },    // Function executed when clicked on the notification bar
     done: () => { return }        // Function which will be executed when you're notified
   }
-  const settings = Object.assign({}, defaults, options)
+  const settings = { ...defaults, ...options }
   const { 
     selector, value, beforeTop, afterTop, onClick, done 
   } = options
