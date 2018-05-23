@@ -16,21 +16,17 @@ const Notify = options => {
     beforeTop: '105%',               // Position before it notifies
     afterTop: '90%',                 // Position after it notifies
     value: 'Message',                // This will be the message
-    selector: $('.handy-notify'),    // Selector you just created
+    selector: '.handy-notify',    // Selector you just created
     onClick: () => { return },       // Function executed when clicked on the notification bar
     done: () => { return }           // Function which will be executed when you're notified
   }
-  const settings = Object.assign({}, defaults, options)
+  const settings = { ...defaults, ...options }
+  const {
+    selector, value, beforeTop, afterTop, onClick, done
+  } = settings
+  const element = $(selector)
 
-  let
-    selector = options.selector,
-    value = options.value,
-    beforeTop = options.beforeTop,
-    afterTop = options.afterTop,
-    onClick = options.onClick,
-    done = options.done
-
-  $(selector)
+  element
     .css({
       'position': 'fixed',
       'background': '#333',
@@ -46,19 +42,19 @@ const Notify = options => {
     })
     .find('span').html(value)
 
-  $(selector).animate(
+  element.animate(
   { top: afterTop }, 
   'fast', 
   () => {
     done()
     setTimeout(() => {
-      $(selector).animate({ top: beforeTop })
+      element.animate({ top: beforeTop })
     }, 3000)
   })
 
-  $(selector).on('click', e => {
+  element.on('click', e => {
     onClick(e)
-    $(selector).animate({ top: beforeTop })
+    element.animate({ top: beforeTop })
   })
 
 }

@@ -50,7 +50,7 @@ options = {
     beforeTop: String,
     afterTop: String,
     value: String,
-    selector: jQueryElement, 
+    selector: String,  // '.el' || '#el' || ... 
     onClick: Function,
     done: Function
 }
