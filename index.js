@@ -1,25 +1,29 @@
 const $ = require('jquery')
 
-// FUNCTION TO NOTIFY
-const Notify = function (options) {
+/**
+ * Function to notify
+ * 
+ * @param {Object} options 
+ * @param {String} options.beforeTop
+ * @param {String} options.afterTop
+ * @param {String} options.value
+ * @param {String} options.selector
+ * @param {Function} options.onClick
+ * @param {Function} options.done
+ */
+const Notify = options => {
   const defaults = {
-    beforeTop: '105%',                // Position before it notifies
-    afterTop: '90%',                  // Position after it notifies
-    value: 'Message',                 // This will be the message
-    selector: $('.handy-notify'),     // Selector you just created
-    onClick: function() { return },   // Function when clicked on the notification bar
-    done: function() { return }       // Function which will be executed when you're notified
+    beforeTop: '105%',            // Position before it notifies
+    afterTop: '90%',              // Position after it notifies
+    value: 'Message',             // This will be the message
+    selector: '.handy-notify',    // Selector you just created
+    onClick: () => { return },    // Function executed when clicked on the notification bar
+    done: () => { return }        // Function which will be executed when you're notified
   }
-
   const settings = Object.assign({}, defaults, options)
-
-  const
-    selector = settings.selector,
-    value = settings.value,
-    beforeTop = settings.beforeTop,
-    afterTop = settings.afterTop,
-    onClick = settings.onClick,
-    done = settings.done
+  const { 
+    selector, value, beforeTop, afterTop, onClick, done 
+  } = options
 
   $(selector)
     .css({
@@ -37,16 +41,17 @@ const Notify = function (options) {
     })
     .find('span').html(value)
 
-  $(selector).animate({
-    top: afterTop
-  }, 'fast', function () {
+  $(selector).animate(
+  { top: afterTop }, 
+  'fast', 
+  () => {
     done()
-    setTimeout(function () {
+    setTimeout(() => {
       $(selector).animate({ top: beforeTop })
     }, 3000)
   })
 
-  $(selector).on('click', function (e) {
+  $(selector).on('click', e => {
     onClick(e)
     $(selector).animate({ top: beforeTop })
   })
