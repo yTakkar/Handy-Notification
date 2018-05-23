@@ -24,6 +24,7 @@ const Notify = options => {
   const { 
     selector, value, beforeTop, afterTop, onClick, done 
   } = options
+  const element = $(selector)
 
   $(selector)
     .css({
