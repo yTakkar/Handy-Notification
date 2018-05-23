@@ -1,6 +1,6 @@
 {
   "name": "handy-notification",
-  "version": "1.0.33",
+  "version": "1.0.34",
   "description": "Google+ style notification which comes from the bottom to notify!!",
   "main": "index.js",
   "scripts": {
