@@ -43,6 +43,13 @@ These screenshots are from [React-Instagram-clone-2.0](https://github.com/yTakka
     })
     ```
 
+# Example
+```
+npm run example
+```
+
+Run the above command, open http://localhost:7007 and watch live example.
+
 # API
 ```JavaScript
 Notify(options:Object)

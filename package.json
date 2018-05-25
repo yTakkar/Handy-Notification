@@ -4,7 +4,8 @@
   "description": "Google+ style notification which comes from the bottom to notify!!",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "example": "parcel ./example/index.html -p 7007"
   },
   "repository": {
     "type": "git",
@@ -14,7 +15,10 @@
     "google+",
     "notification",
     "notify",
-    "handy-notification"
+    "handy-notification",
+    "message",
+    "handy",
+    "yTakkar"
   ],
   "author": "yTakkar <www.shtakkar@gmail.com>",
   "license": "ISC",
@@ -24,5 +28,10 @@
   "homepage": "https://github.com/yTakkar/Handy-Notification#readme",
   "dependencies": {
     "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1"
   }
 }
