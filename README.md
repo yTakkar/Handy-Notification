@@ -1,5 +1,5 @@
 # Handy-Notification
-oogle+ style notification which comes from the bottom to notify.
+Google+ style notification which comes from the bottom to notify.
 
 [![npm version](https://badge.fury.io/js/handy-notification.svg)](https://www.npmjs.com/package/handy-notification)
 
