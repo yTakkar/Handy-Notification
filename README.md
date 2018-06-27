@@ -1,28 +1,27 @@
 # Handy-Notification
-A very simple, tiny & useful Google+ style notification bar which comes from the bottom, notifies you & transitions back to the bottom. Screenshots below.
+oogle+ style notification which comes from the bottom to notify.
 
 [![npm version](https://badge.fury.io/js/handy-notification.svg)](https://www.npmjs.com/package/handy-notification)
 
 # Quick links
-1. [Screenshots](#screenshots)
+1. [Screenshot](#screenshot)
 2. [Usage](#usage)
 3. [API](#api)
 4. [Contribute](#contribute)
 
-# Screenshots
+# Screenshot
 ![alt text](https://raw.githubusercontent.com/yTakkar/Handy-Notification/master/screenshots/Snap%202017-05-23%20at%2001.21.00.png)
-![alt text](https://raw.githubusercontent.com/yTakkar/Handy-Notification/master/screenshots/Snap%202017-05-23%20at%2000.15.02.png)
 
-These screenshots are from [React-Instagram-clone-2.0](https://github.com/yTakkar/React-Instagram-clone-2.0)!!
+The above screenshot is from [React-Instagram-clone-2.0](https://github.com/yTakkar/React-Instagram-clone-2.0)
 
 # Usage
 
 1. First install the package with `npm` or `Yarn`.
-    ```
+    ```bash
+    # with npm
     npm install handy-notification
-    ```
-    or
-    ```
+    
+    # or with Yarn
     yarn add handy-notification
     ```
 
@@ -48,7 +47,7 @@ These screenshots are from [React-Instagram-clone-2.0](https://github.com/yTakka
 npm run example
 ```
 
-Run the above command, open http://localhost:7007 and watch live example.
+Run the above command and open http://localhost:7007
 
 # API
 ```JavaScript
