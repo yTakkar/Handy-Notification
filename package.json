@@ -4,7 +4,6 @@
   "description": "Google+ style notification which comes from the bottom to notify!!",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js",
     "example": "parcel ./example/index.html -p 7007"
   },
   "repository": {
