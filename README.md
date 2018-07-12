@@ -10,7 +10,7 @@ Google+ style notification which comes from the bottom to notify.
 4. [Contribute](#contribute)
 
 # Screenshot
-![alt text](https://raw.githubusercontent.com/yTakkar/Handy-Notification/master/screenshots/Snap%202017-05-23%20at%2001.21.00.png)
+![alt text](https://image.ibb.co/dzLShT/Snap_2017_05_23_at_01_21_00.png)
 
 The above screenshot is from [React-Instagram-clone-2.0](https://github.com/yTakkar/React-Instagram-clone-2.0)
 
