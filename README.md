@@ -37,7 +37,7 @@ The above screenshot is from [React-Instagram-clone-2.0](https://github.com/yTak
     import Notify from 'handy-notification'
     Notify({
         value: "Hello, how are you?",   // Message to be displayed
-        onClick = e => console.log('Clicked!!'),  // Function executed when clicked on the notification bar
+        onClick: e => console.log('Clicked!!'),  // Function executed when clicked on the notification bar
         done: () => console.log('I notified you & went back to the bottom!')    // function to be executed when you're notified
     })
     ```
