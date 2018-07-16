@@ -1,6 +1,8 @@
 # Handy-Notification
 Google+ style notification which comes from the bottom to notify.
 
+[Demo](https://codesandbox.io/s/vv261wkl67)
+
 [![npm version](https://badge.fury.io/js/handy-notification.svg)](https://www.npmjs.com/package/handy-notification)
 
 # Quick links
